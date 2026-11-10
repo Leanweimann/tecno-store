@@ -8,7 +8,7 @@ function Navbar() {
         <li><a href="#">Celulares</a></li>
         <li><a href="#">Notebooks</a></li>
         <li><a href="#">Auriculares</a></li>
-        <li><a href="#">Celulares</a></li>
+        <li><a href="#">Tablets</a></li>
         <li><a href="#">Accesorios</a></li>
       </ul>
       <CartWidget />
