@@ -2,11 +2,46 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
-
-h1 {
-  text-align: center;
+ Narvar de la barra superior/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d51b1;
+  color: white;
+  padding: 10px 30px;
 }
 
-p {
+.logo {
+  margin: 0;
+}
+
+.categorias {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.categorias a {
+  color: white;
+  text-decoration: none;
+}
+
+.categorias a:hover {
+  text-decoration: underline;
+}
+
+.cart-widget span {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 7px;
+  font-size: 14px;
+}
+
+.item-list-container {
   text-align: center;
+  margin-top: 40px;
 }
