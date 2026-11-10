@@ -1,10 +1,12 @@
-import Header from './components/Header'
+import Navbar from './components/Navbar'
+import ItemListContainer from './components/ItemListContainer'
 
 function App() {
   return (
-    <div>
-      <Header />
-    </div>
+    <>
+      <Navbar />
+      <ItemListContainer greeting="¡Bienvenidos a Tecno Store!" />
+    </>
   )
 }
 
