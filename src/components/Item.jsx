@@ -3,7 +3,7 @@ function Item({ product }) {
     <div className="item">
       <img src={product.img} alt={product.name} />
       <h3>{product.name}</h3>
-      <p>{product.description}</p>
+      <p>{product.category}</p>
       <p className="precio">${product.price}</p>
     </div>
   )
