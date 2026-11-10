@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function Item({ product }) {
   return (
     <div className="item">
@@ -5,6 +7,7 @@ function Item({ product }) {
       <h3>{product.name}</h3>
       <p>{product.category}</p>
       <p className="precio">${product.price}</p>
+      <Link to={`/item/${product.id}`}>Ver detalle</Link>
     </div>
   )
 }
